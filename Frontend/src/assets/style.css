@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: #198754;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.jumbotron {
+  padding-top: 70px;
+  height: 592px;
+}
+
+.layanan {
+  background-color: #f3fff4;
+  padding: 50px 0 125px 0;
+}
+
+.card {
+  height: 313px;
+}
+
+.card-bg {
+  transition: all 0.2s ease;
+  background: linear-gradient(124.64deg, #ffffff, #ffffff);
+  height: 313px;
+}
+
+.circle {
+  border-radius: 100px;
+  background-color: #00985b;
+  width: 70px;
+  height: 70px;
+  transition: all 0.2s ease;
+}
+
+.card-title {
+  color: #198754;
+  transition: all 0.2s ease;
+}
+
+.card-text {
+  color: #000000;
+  transition: all 0.2s ease;
+}
+
+.card-container:hover .card-bg {
+  background: linear-gradient(124.64deg, #00985b 0%, #000000 186%);
+  transition: all 0.2s ease;
+}
+
+.card-container:hover .circle {
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.card-container:hover .card-title {
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.card-container:hover .card-text {
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.fitur {
+  background-image: url("../assets/home/green-interior-modern-interior-living-room-style-with-soft-sofa-green-wall-3d-rendering 2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0 250px 0;
+}
+
+.fitur .container p {
+  padding-bottom: 80px;
+}
+
+.fitur .nav-tabs {
+  border-bottom: none;
+}
+
+.fitur .nav-link.active:hover {
+  border: transparent;
+  background: rgba(0, 152, 91);
+  color: white;
+  padding: 8px 27px;
+}
+
+.fitur .nav-link:hover {
+  border: transparent;
+  background: rgba(0, 152, 91);
+  color: white;
+  padding: 8px 27px;
+}
+
+.fitur .nav-link.active {
+  backdrop-filter: blur(6px);
+  background: rgba(255, 255, 255, 0.6);
+  border: transparent;
+  color: #198754;
+  padding: 8px 27px;
+}
+
+.fitur .nav-link {
+  backdrop-filter: blur(6px);
+  background: rgba(255, 255, 255, 0.4);
+  border: transparent;
+  color: black;
+  padding: 8px 27px;
+}
+
+.fitur .tab-content {
+  border-radius: 0 20px 20px 20px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(6px);
+}
+
+.fitur .btn-explore {
+  background-color: #198754;
+  color: white;
+}
+
+.fitur .select {
+  background-color: transparent;
+  border: none;
+}
+
+.fitur option:checked,
+.fitur option:hover,
+.fitur option:active {
+  background-color: #198754;
+  color: white;
+}
+
+.fitur .search {
+  background-color: transparent;
+  border: none;
+  padding: 0 0 0 10px;
+}
+
+.fitur .search::placeholder {
+  color: #198754;
+}
+
+.fitur .btn {
+  text-decoration: none;
+}
+
+.QnA {
+  background-image: url("../assets/home/image 21.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 90px 0 100px 0;
+}
+
+.QnA .form-control-lg {
+  max-width: inherit;
+  background-color: #c4c4c4;
+}
+
+.QnA .btn {
+  width: 100%;
+  max-width: 600px;
+}

@@ -1,0 +1,100 @@
+### Make a GET request to the following URL:
+GET http://localhost:5000/users
+
+
+### Make a get request by passing the user id:
+GET http://localhost:5000/users/6360d62a64761ace51f2ecb8
+
+
+
+### Make a POST request to create a new user
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "_id": "636688b8810df582f261e821",
+    "name": "Taylor Swift",
+    "email": "taylors@gmail.com",
+    "gender": "Female"
+}
+
+### Make a PUT request to update a user
+PATCH http://localhost:5000/users/636529815b4ed743dea6df12
+Content-Type: application/json
+
+{
+    "name": "John Doe Barinston",
+    "email": "johnbar@gmail.com",
+    "gender": "Male"
+}
+
+### Make a DELETE request to delete a user
+DELETE http://localhost:5000/users/635fd9ee384524ab87a7b252
+
+####-----------------------------------------------------KOS----------------------------------------------------------------------------
+####-====================================================================================================================================
+### Make a GET Kos request to the following URL:
+GET http://localhost:5000/kos
+
+### Make a get Kos request by passing the user id:
+GET http://localhost:5000/kos/636631add0fd576e982d2d42
+
+### Make a POST request to create a new Kos
+POST http://localhost:5000/kos
+Content-Type: application/json
+
+{
+    "type": 3,
+    "owner": "Budi",
+    "city": "Surabaya",
+    "address": "Jl. Raya Kedungmundu",
+    "price": "Rp54.000.000/tahun",
+    "facilities": "Kolam Renang, AC, TV, Wifi, Shower 2, Kasur 2, Kamar Mandi 2, Kulkas, Dapur, Parkir",
+    "phone": "081234567890",
+    "status": "Tersedia",
+    "description": "Apartemen bintang 5 dengan fasilitas lengkap. Cocok untuk keluarga besar. Harga sewa terjangkau. Hubungi 081234567890 untuk informasi lebih lanjut."
+}
+
+### Make a PATCH request to update a Kos
+PATCH http://localhost:5000/kos/636688b8810df582f261e821
+Content-Type: application/json
+
+{
+    "type": 3,
+    "owner": "Taylor Swift Dickson",
+    "city": "Surabaya",
+    "address": "Jl. Kebon Sirih No. 1, RT.1/RW.1, Kebon Sirih, Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10340",
+    "price": "Rp4.200.000/bulan",
+    "facilities": "Kamar mandi dalam, AC, TV, Wifi, Kamar mandi luar",
+    "phone": "+62 8123-4567-893",
+    "description": "Apartemen mewah, nyaman, dan bersih"
+}
+
+### Make a DELETE request to delete a Kos
+DELETE http://localhost:5000/kos/63665f5e4909f5f8046d4e32
+
+####-----------------------------------------------------KOS----------------------------------------------------------------------------
+####-====================================================================================================================================
+### Make a GET Checkout request to the following URL:
+GET http://localhost:5000/checkout
+
+### Make a get Checkout request by passing the user id:
+GET http://localhost:5000/checkout/636688b8810df582f261e821
+
+
+### Make a POST request to create a new Checkout
+POST http://localhost:5000/checkout
+Content-Type: application/json
+
+{
+    "_id": "636688b8810df582f261e821",
+    "name": "Tali",
+    "phone": "081234567890",
+    "id_card": "1234567890123456",
+    "payment": "PayPal",
+    "down_payment": true,
+    "credit_name": "Taylor Swift",
+    "credit_number": "1234567890123456"
+}
+### Make a DELETE request to delete a Checkout
+DELETE  http://localhost:5000/checkout/636688b8810df582f261e821
